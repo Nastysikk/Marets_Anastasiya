@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Person
+    class Person : Character
     {
+        public Person()
+        {
+            Typeofcharacter = "Людина";
+            Name = "Невідоме";
+
+        }
     }
 }
